@@ -7,6 +7,13 @@ Unitree SDK2 implements an easy-to-use robot communication mechanism based on Cy
 
 DDS is alos used in ROS2 as a communication mechanism. Therefore, the underlying layers of Unitree Go2, B2, and H1 robots can be compatible with ROS2. ROS2 msg can be direct used for communication and control of Unitree robot without wrapping the SDK interface.
 
+# Connecting to the robot dog
+The robot dog has an ip of 192.168.123.18. Connect the ethernet port on the dog to your computer; in the ethernet settings on your computer, set the ipv4 to manual mode on the ethernet port you have connected your pc to. The ip must be set to 192.168.123.100 (last entry can be set to anything but 18); set the mask to be 255.255.255.0.
+
+Open up a terminal in your pc and enter "ssh unitree@192.168.123.18". The password is 123.
+
+You will be asked to pick noetic or foxy. Pick foxy for the ros2 version.
+
 # Configuration
 ## System requirements
 Tested systems and ROS2 distro
