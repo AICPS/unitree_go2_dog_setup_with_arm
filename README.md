@@ -377,3 +377,6 @@ Add Pointcloud topic: utlidar/cloud in rviz2 and modify Fixed frame to utlidar_l
 ![image](docs/image/piFtyOe.png)
 
 
+# Connecting the Intel Realsense and the Arm.
+
+Follow the instructions in the manual given in https://support.unitree.com/home/en/developer/Payload to understand how to mount the camera and the arm, and the associated connections. Details pertaining to mounting a lidar (sold by Unitree) is also given.
